@@ -1,0 +1,7 @@
+run_date,run_time,check,result,detail
+2026-09-18,17:56:05,system_id normalisation,PASS,1 row(s) had inconsistent system_id casing/whitespace -- normalised to master format
+2026-09-18,17:56:05,duplicate row check (access_review),FAIL,1 duplicate access_id row(s) found and removed
+2026-09-18,17:56:05,orphan system_id check (access_review vs master list),FAIL,1 row(s) reference a system_id not in the master system list: ['LEGACY-FTP-01']
+2026-09-18,17:56:05,completeness check (vulnerability_scan),PASS,no nulls in required fields
+2026-09-18,17:56:05,completeness check (patch_compliance),PASS,no nulls in required fields
+2026-09-18,17:56:05,completeness check (access_review),PASS,no nulls in required fields

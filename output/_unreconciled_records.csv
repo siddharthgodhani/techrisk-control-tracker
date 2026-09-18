@@ -1,0 +1,2 @@
+access_id,system_id,user_role,last_recert_date,recert_sla_days,status,system_id_raw
+ACC-0049,LEGACY-FTP-01,Admin,2025-01-15,180,Overdue,LEGACY-FTP-01

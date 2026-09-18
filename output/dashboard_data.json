@@ -1,0 +1,332 @@
+{
+  "summary": {
+    "run_date": "2026-09-18 17:56",
+    "total_systems_reviewed": 10,
+    "total_exceptions": 28,
+    "vuln_sla_breaches": 12,
+    "patch_sla_breaches": 7,
+    "access_recert_overdue": 9,
+    "qa_checks_run": 6,
+    "qa_checks_failed": 2,
+    "unreconciled_records": 1,
+    "critical_vuln_open": 1
+  },
+  "by_system": {
+    "AUTH-SVC": 5,
+    "CRM-RETAIL": 5,
+    "CORE-BANK-02": 4,
+    "API-GATEWAY": 3,
+    "SANCTIONS-SCR": 3,
+    "DATA-LAKE-01": 2,
+    "PAYMENTS-GW": 2,
+    "REPORTING-DW": 2,
+    "CORE-BANK-01": 1,
+    "MOBILE-BE": 1
+  },
+  "by_type": {
+    "Access Recertification Overdue": 9,
+    "Patch SLA Breach": 7,
+    "Vulnerability SLA Breach": 12
+  },
+  "exceptions": [
+    {
+      "run_date": "2026-09-18",
+      "system_id": "CORE-BANK-02",
+      "exception_type": "Vulnerability SLA Breach",
+      "severity_or_role": "High",
+      "exception_detail": "Open High finding overdue by 69 days",
+      "evidence_ref": "VULN-1002",
+      "control_owner": "A. Mehta"
+    },
+    {
+      "run_date": "2026-09-18",
+      "system_id": "PAYMENTS-GW",
+      "exception_type": "Vulnerability SLA Breach",
+      "severity_or_role": "High",
+      "exception_detail": "Open High finding overdue by 39 days",
+      "evidence_ref": "VULN-1007",
+      "control_owner": "K. Nair"
+    },
+    {
+      "run_date": "2026-09-18",
+      "system_id": "SANCTIONS-SCR",
+      "exception_type": "Vulnerability SLA Breach",
+      "severity_or_role": "Medium",
+      "exception_detail": "Open Medium finding overdue by 16 days",
+      "evidence_ref": "VULN-1008",
+      "control_owner": "R. Fernandes"
+    },
+    {
+      "run_date": "2026-09-18",
+      "system_id": "CRM-RETAIL",
+      "exception_type": "Vulnerability SLA Breach",
+      "severity_or_role": "Medium",
+      "exception_detail": "Open Medium finding overdue by 2 days",
+      "evidence_ref": "VULN-1010",
+      "control_owner": "K. Nair"
+    },
+    {
+      "run_date": "2026-09-18",
+      "system_id": "CRM-RETAIL",
+      "exception_type": "Vulnerability SLA Breach",
+      "severity_or_role": "High",
+      "exception_detail": "Open High finding overdue by 10 days",
+      "evidence_ref": "VULN-1011",
+      "control_owner": "A. Mehta"
+    },
+    {
+      "run_date": "2026-09-18",
+      "system_id": "CRM-RETAIL",
+      "exception_type": "Vulnerability SLA Breach",
+      "severity_or_role": "High",
+      "exception_detail": "Open High finding overdue by 64 days",
+      "evidence_ref": "VULN-1013",
+      "control_owner": "P. Rao"
+    },
+    {
+      "run_date": "2026-09-18",
+      "system_id": "AUTH-SVC",
+      "exception_type": "Vulnerability SLA Breach",
+      "severity_or_role": "Medium",
+      "exception_detail": "Open Medium finding overdue by 53 days",
+      "evidence_ref": "VULN-1018",
+      "control_owner": "S. Iyer"
+    },
+    {
+      "run_date": "2026-09-18",
+      "system_id": "AUTH-SVC",
+      "exception_type": "Vulnerability SLA Breach",
+      "severity_or_role": "Medium",
+      "exception_detail": "Open Medium finding overdue by 22 days",
+      "evidence_ref": "VULN-1019",
+      "control_owner": "S. Iyer"
+    },
+    {
+      "run_date": "2026-09-18",
+      "system_id": "AUTH-SVC",
+      "exception_type": "Vulnerability SLA Breach",
+      "severity_or_role": "High",
+      "exception_detail": "Open High finding overdue by 78 days",
+      "evidence_ref": "VULN-1020",
+      "control_owner": "A. Mehta"
+    },
+    {
+      "run_date": "2026-09-18",
+      "system_id": "API-GATEWAY",
+      "exception_type": "Vulnerability SLA Breach",
+      "severity_or_role": "Medium",
+      "exception_detail": "Open Medium finding overdue by 15 days",
+      "evidence_ref": "VULN-1023",
+      "control_owner": "S. Iyer"
+    },
+    {
+      "run_date": "2026-09-18",
+      "system_id": "API-GATEWAY",
+      "exception_type": "Vulnerability SLA Breach",
+      "severity_or_role": "Medium",
+      "exception_detail": "Open Medium finding overdue by 51 days",
+      "evidence_ref": "VULN-1024",
+      "control_owner": "K. Nair"
+    },
+    {
+      "run_date": "2026-09-18",
+      "system_id": "REPORTING-DW",
+      "exception_type": "Vulnerability SLA Breach",
+      "severity_or_role": "Critical",
+      "exception_detail": "Open Critical finding overdue by 101 days",
+      "evidence_ref": "VULN-1029",
+      "control_owner": "A. Mehta"
+    },
+    {
+      "run_date": "2026-09-18",
+      "system_id": "CORE-BANK-01",
+      "exception_type": "Patch SLA Breach",
+      "severity_or_role": NaN,
+      "exception_detail": "Not patched for 60 days (SLA: 45 days)",
+      "evidence_ref": "PATCH-CORE-BANK-01",
+      "control_owner": "R. Fernandes"
+    },
+    {
+      "run_date": "2026-09-18",
+      "system_id": "CORE-BANK-02",
+      "exception_type": "Patch SLA Breach",
+      "severity_or_role": NaN,
+      "exception_detail": "Not patched for 49 days (SLA: 45 days)",
+      "evidence_ref": "PATCH-CORE-BANK-02",
+      "control_owner": "S. Iyer"
+    },
+    {
+      "run_date": "2026-09-18",
+      "system_id": "PAYMENTS-GW",
+      "exception_type": "Patch SLA Breach",
+      "severity_or_role": NaN,
+      "exception_detail": "Not patched for 91 days (SLA: 45 days)",
+      "evidence_ref": "PATCH-PAYMENTS-GW",
+      "control_owner": "A. Mehta"
+    },
+    {
+      "run_date": "2026-09-18",
+      "system_id": "SANCTIONS-SCR",
+      "exception_type": "Patch SLA Breach",
+      "severity_or_role": NaN,
+      "exception_detail": "Not patched for 79 days (SLA: 45 days)",
+      "evidence_ref": "PATCH-SANCTIONS-SCR",
+      "control_owner": "K. Nair"
+    },
+    {
+      "run_date": "2026-09-18",
+      "system_id": "CRM-RETAIL",
+      "exception_type": "Patch SLA Breach",
+      "severity_or_role": NaN,
+      "exception_detail": "Not patched for 95 days (SLA: 45 days)",
+      "evidence_ref": "PATCH-CRM-RETAIL",
+      "control_owner": "P. Rao"
+    },
+    {
+      "run_date": "2026-09-18",
+      "system_id": "DATA-LAKE-01",
+      "exception_type": "Patch SLA Breach",
+      "severity_or_role": NaN,
+      "exception_detail": "Not patched for 50 days (SLA: 45 days)",
+      "evidence_ref": "PATCH-DATA-LAKE-01",
+      "control_owner": "K. Nair"
+    },
+    {
+      "run_date": "2026-09-18",
+      "system_id": "REPORTING-DW",
+      "exception_type": "Patch SLA Breach",
+      "severity_or_role": NaN,
+      "exception_detail": "Not patched for 93 days (SLA: 45 days)",
+      "evidence_ref": "PATCH-REPORTING-DW",
+      "control_owner": "P. Rao"
+    },
+    {
+      "run_date": "2026-09-18",
+      "system_id": "CORE-BANK-02",
+      "exception_type": "Access Recertification Overdue",
+      "severity_or_role": "Service Account",
+      "exception_detail": "Service Account access not recertified for 162 days",
+      "evidence_ref": "ACC-0008",
+      "control_owner": "IAM Team"
+    },
+    {
+      "run_date": "2026-09-18",
+      "system_id": "CORE-BANK-02",
+      "exception_type": "Access Recertification Overdue",
+      "severity_or_role": "Service Account",
+      "exception_detail": "Service Account access not recertified for 184 days",
+      "evidence_ref": "ACC-0010",
+      "control_owner": "IAM Team"
+    },
+    {
+      "run_date": "2026-09-18",
+      "system_id": "SANCTIONS-SCR",
+      "exception_type": "Access Recertification Overdue",
+      "severity_or_role": "Admin",
+      "exception_detail": "Admin access not recertified for 71 days",
+      "evidence_ref": "ACC-0019",
+      "control_owner": "IAM Team"
+    },
+    {
+      "run_date": "2026-09-18",
+      "system_id": "CRM-RETAIL",
+      "exception_type": "Access Recertification Overdue",
+      "severity_or_role": "Service Account",
+      "exception_detail": "Service Account access not recertified for 192 days",
+      "evidence_ref": "ACC-0024",
+      "control_owner": "IAM Team"
+    },
+    {
+      "run_date": "2026-09-18",
+      "system_id": "DATA-LAKE-01",
+      "exception_type": "Access Recertification Overdue",
+      "severity_or_role": "Standard User",
+      "exception_detail": "Standard User access not recertified for 160 days",
+      "evidence_ref": "ACC-0027",
+      "control_owner": "IAM Team"
+    },
+    {
+      "run_date": "2026-09-18",
+      "system_id": "AUTH-SVC",
+      "exception_type": "Access Recertification Overdue",
+      "severity_or_role": "Standard User",
+      "exception_detail": "Standard User access not recertified for 181 days",
+      "evidence_ref": "ACC-0031",
+      "control_owner": "IAM Team"
+    },
+    {
+      "run_date": "2026-09-18",
+      "system_id": "AUTH-SVC",
+      "exception_type": "Access Recertification Overdue",
+      "severity_or_role": "Read-Only",
+      "exception_detail": "Read-Only access not recertified for 195 days",
+      "evidence_ref": "ACC-0032",
+      "control_owner": "IAM Team"
+    },
+    {
+      "run_date": "2026-09-18",
+      "system_id": "API-GATEWAY",
+      "exception_type": "Access Recertification Overdue",
+      "severity_or_role": "Admin",
+      "exception_detail": "Admin access not recertified for 182 days",
+      "evidence_ref": "ACC-0036",
+      "control_owner": "IAM Team"
+    },
+    {
+      "run_date": "2026-09-18",
+      "system_id": "MOBILE-BE",
+      "exception_type": "Access Recertification Overdue",
+      "severity_or_role": "Standard User",
+      "exception_detail": "Standard User access not recertified for 33 days",
+      "evidence_ref": "ACC-0043",
+      "control_owner": "IAM Team"
+    }
+  ],
+  "qa_log": [
+    {
+      "run_date": "2026-09-18",
+      "run_time": "17:56:05",
+      "check": "system_id normalisation",
+      "result": "PASS",
+      "detail": "1 row(s) had inconsistent system_id casing/whitespace -- normalised to master format"
+    },
+    {
+      "run_date": "2026-09-18",
+      "run_time": "17:56:05",
+      "check": "duplicate row check (access_review)",
+      "result": "FAIL",
+      "detail": "1 duplicate access_id row(s) found and removed"
+    },
+    {
+      "run_date": "2026-09-18",
+      "run_time": "17:56:05",
+      "check": "orphan system_id check (access_review vs master list)",
+      "result": "FAIL",
+      "detail": "1 row(s) reference a system_id not in the master system list: ['LEGACY-FTP-01']"
+    },
+    {
+      "run_date": "2026-09-18",
+      "run_time": "17:56:05",
+      "check": "completeness check (vulnerability_scan)",
+      "result": "PASS",
+      "detail": "no nulls in required fields"
+    },
+    {
+      "run_date": "2026-09-18",
+      "run_time": "17:56:05",
+      "check": "completeness check (patch_compliance)",
+      "result": "PASS",
+      "detail": "no nulls in required fields"
+    },
+    {
+      "run_date": "2026-09-18",
+      "run_time": "17:56:05",
+      "check": "completeness check (access_review)",
+      "result": "PASS",
+      "detail": "no nulls in required fields"
+    }
+  ],
+  "uplift_status": {
+    "Open": 28
+  }
+}

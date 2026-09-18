@@ -1,0 +1,2 @@
+run_date,total_systems_reviewed,total_exceptions,vuln_sla_breaches,patch_sla_breaches,access_recert_overdue,qa_checks_run,qa_checks_failed,unreconciled_records,critical_vuln_open
+2026-09-18 17:56,10,28,12,7,9,6,2,1,1

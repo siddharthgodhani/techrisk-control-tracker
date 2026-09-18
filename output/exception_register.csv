@@ -1,0 +1,29 @@
+run_date,system_id,exception_type,severity_or_role,exception_detail,evidence_ref,control_owner
+2026-09-18,CORE-BANK-02,Vulnerability SLA Breach,High,Open High finding overdue by 69 days,VULN-1002,A. Mehta
+2026-09-18,PAYMENTS-GW,Vulnerability SLA Breach,High,Open High finding overdue by 39 days,VULN-1007,K. Nair
+2026-09-18,SANCTIONS-SCR,Vulnerability SLA Breach,Medium,Open Medium finding overdue by 16 days,VULN-1008,R. Fernandes
+2026-09-18,CRM-RETAIL,Vulnerability SLA Breach,Medium,Open Medium finding overdue by 2 days,VULN-1010,K. Nair
+2026-09-18,CRM-RETAIL,Vulnerability SLA Breach,High,Open High finding overdue by 10 days,VULN-1011,A. Mehta
+2026-09-18,CRM-RETAIL,Vulnerability SLA Breach,High,Open High finding overdue by 64 days,VULN-1013,P. Rao
+2026-09-18,AUTH-SVC,Vulnerability SLA Breach,Medium,Open Medium finding overdue by 53 days,VULN-1018,S. Iyer
+2026-09-18,AUTH-SVC,Vulnerability SLA Breach,Medium,Open Medium finding overdue by 22 days,VULN-1019,S. Iyer
+2026-09-18,AUTH-SVC,Vulnerability SLA Breach,High,Open High finding overdue by 78 days,VULN-1020,A. Mehta
+2026-09-18,API-GATEWAY,Vulnerability SLA Breach,Medium,Open Medium finding overdue by 15 days,VULN-1023,S. Iyer
+2026-09-18,API-GATEWAY,Vulnerability SLA Breach,Medium,Open Medium finding overdue by 51 days,VULN-1024,K. Nair
+2026-09-18,REPORTING-DW,Vulnerability SLA Breach,Critical,Open Critical finding overdue by 101 days,VULN-1029,A. Mehta
+2026-09-18,CORE-BANK-01,Patch SLA Breach,N/A,Not patched for 60 days (SLA: 45 days),PATCH-CORE-BANK-01,R. Fernandes
+2026-09-18,CORE-BANK-02,Patch SLA Breach,N/A,Not patched for 49 days (SLA: 45 days),PATCH-CORE-BANK-02,S. Iyer
+2026-09-18,PAYMENTS-GW,Patch SLA Breach,N/A,Not patched for 91 days (SLA: 45 days),PATCH-PAYMENTS-GW,A. Mehta
+2026-09-18,SANCTIONS-SCR,Patch SLA Breach,N/A,Not patched for 79 days (SLA: 45 days),PATCH-SANCTIONS-SCR,K. Nair
+2026-09-18,CRM-RETAIL,Patch SLA Breach,N/A,Not patched for 95 days (SLA: 45 days),PATCH-CRM-RETAIL,P. Rao
+2026-09-18,DATA-LAKE-01,Patch SLA Breach,N/A,Not patched for 50 days (SLA: 45 days),PATCH-DATA-LAKE-01,K. Nair
+2026-09-18,REPORTING-DW,Patch SLA Breach,N/A,Not patched for 93 days (SLA: 45 days),PATCH-REPORTING-DW,P. Rao
+2026-09-18,CORE-BANK-02,Access Recertification Overdue,Service Account,Service Account access not recertified for 162 days,ACC-0008,IAM Team
+2026-09-18,CORE-BANK-02,Access Recertification Overdue,Service Account,Service Account access not recertified for 184 days,ACC-0010,IAM Team
+2026-09-18,SANCTIONS-SCR,Access Recertification Overdue,Admin,Admin access not recertified for 71 days,ACC-0019,IAM Team
+2026-09-18,CRM-RETAIL,Access Recertification Overdue,Service Account,Service Account access not recertified for 192 days,ACC-0024,IAM Team
+2026-09-18,DATA-LAKE-01,Access Recertification Overdue,Standard User,Standard User access not recertified for 160 days,ACC-0027,IAM Team
+2026-09-18,AUTH-SVC,Access Recertification Overdue,Standard User,Standard User access not recertified for 181 days,ACC-0031,IAM Team
+2026-09-18,AUTH-SVC,Access Recertification Overdue,Read-Only,Read-Only access not recertified for 195 days,ACC-0032,IAM Team
+2026-09-18,API-GATEWAY,Access Recertification Overdue,Admin,Admin access not recertified for 182 days,ACC-0036,IAM Team
+2026-09-18,MOBILE-BE,Access Recertification Overdue,Standard User,Standard User access not recertified for 33 days,ACC-0043,IAM Team
